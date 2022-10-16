@@ -16,12 +16,12 @@
   "whitelistMintSettings": null,
   "hiddenSettings": null,
   "freezeTime": null,
-  "uploadMethod": "bundlr",
+  "uploadMethod": "nft_storage",
   "retainAuthority": true,
   "isMutable": true,
   "symbol": "NB",
   "sellerFeeBasisPoints": 1,
   "awsConfig": null,
-  "nftStorageAuthToken": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDdDRDRFNDMwODY5MEIxODQ5RTg4MzY1MUJhMEQ3NDlFNzk4NjE1YjIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2NDI2NDgzNDg2NiwibmFtZSI6Im1ldGFwbGV4In0.bu7oj4uKrILKvP_bDt4rWnJwsdeN5drvbx-OetkEVuE",
   "shdwStorageAccount": null
 }
