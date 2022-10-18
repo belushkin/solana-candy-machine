@@ -177,3 +177,6 @@ https://www.solaneyes.com/address/CX32wnRWALUt3ApJEA3C3DsUyW5mwDdw87tcw1WUnndj?c
 
 - URL to listed item:
 https://magiceden.io/item-details/FvBxiPgrr12JPep4LNnUHWn7FYVkh9c476bZUrPxn5k3
+
+- https://solanart.io/collections/ukrainian-armed-forces
+- https://magiceden.io/item-details/FvBxiPgrr12JPep4LNnUHWn7FYVkh9c476bZUrPxn5k3/#
