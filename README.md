@@ -16,6 +16,10 @@
 - Phantom wallet: https://phantom.app/
 - Install git, node, yarn, ts-node
 
+## Candy machine UI
+- https://docs.metaplex.com/guides/candy-machine-ui
+
+
 ```
 git version
 > git version 2.31.1 (or higher!)
