@@ -1,17 +1,17 @@
 {
-  "price": 0.01,
-  "number": 3,
+  "price": 0.1,
+  "number": 139,
   "gatekeeper": null,
   "creators": [
     {
-      "address": "HoWhZWVuUMEPW5APpjBaBXaBPxBNFpUVHKXkuuUgfFgH",
+      "address": "BJ3ywiBBuisEyE14kxqpMzbDZCm3DMqmj78V1j8R5TqP",
       "share": 100
     }
   ],
-  "solTreasuryAccount": "HoWhZWVuUMEPW5APpjBaBXaBPxBNFpUVHKXkuuUgfFgH",
+  "solTreasuryAccount": "BJ3ywiBBuisEyE14kxqpMzbDZCm3DMqmj78V1j8R5TqP",
   "splTokenAccount": null,
   "splToken": null,
-  "goLiveDate": "2022-09-27T07:40:53.928024828+00:00",
+  "goLiveDate": "2022-10-17T18:01:14.674066028+00:00",
   "endSettings": null,
   "whitelistMintSettings": null,
   "hiddenSettings": null,
@@ -19,7 +19,7 @@
   "uploadMethod": "bundlr",
   "retainAuthority": true,
   "isMutable": true,
-  "symbol": "NB",
+  "symbol": "ZSU",
   "sellerFeeBasisPoints": 1,
   "awsConfig": null,
   "nftStorageAuthToken": null,

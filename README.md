@@ -42,6 +42,11 @@ solana config set --url devnet
 solana config get
 ```
 
+- Set solana mainnet
+```
+solana config set --url https://api.mainnet-beta.solana.com
+```
+
 - Install sugar
 ```
 sudo apt install libudev-dev pkg-config unzip
@@ -53,6 +58,9 @@ sugar
 - https://docs.metaplex.com/developer-tools/sugar/guides/preparing-assets
 - 2048x2048 png
 - collection.json vs collection.png
+- MAX_NAME_LENGTH = 32; (Name exceeds 32 chars Metaplex error)
+- MAX_SYMBOL_LENGTH = 10;
+- MAX_URI_LENGTH = 200;
 - Note: Only PNGs are supported right now via the CLI.
 - Storage: (https://bundlr.network/ and https://www.arweave.org/) or https://www.pinata.cloud/ or https://nft.storage/
 
@@ -62,6 +70,13 @@ sugar
 ```
 solana-keygen new --outfile ~/.config/solana/devnet.json
 solana config set --keypair ~/.config/solana/devnet.json
+solana config get
+```
+
+- Generate keys (paste your secret seed phrase):
+```
+solana-keygen recover 'prompt:?key=0/0' -o  ~/.config/solana/mainnet.json
+solana config set --keypair ~/.config/solana/mainnet.json
 solana config get
 ```
 
@@ -117,8 +132,15 @@ sugar update
 REACT_APP_CANDY_MACHINE_ID=YOUR_CANDY_MACHINE_ID
 REACT_PUBLIC_SOLANA_NETWORK=devnet
 REACT_APP_SOLANA_RPC_HOST=https://metaplex.devnet.rpcpool.com/
-
 ```
+
+- Mainnet
+```
+REACT_APP_CANDY_MACHINE_ID=CX32wnRWALUt3ApJEA3C3DsUyW5mwDdw87tcw1WUnndj
+NEXT_PUBLIC_SOLANA_NETWORK=mainnet
+REACT_APP_SOLANA_RPC_HOST=https://api.mainnet-beta.solana.com
+```
+
 `REACT_APP_CANDY_MACHINE_ID` - This is the address I asked you to keep handy. If you've lost it, it can be found in the cache.json JSON file, look for the value associated with the candyMachine key.
 
 `REACT_PUBLIC_SOLANA_NETWORK` - Set this to devnet as this is just the network in which we are accessing our candy machine from
@@ -142,3 +164,12 @@ Run Metaplex's verify command via the CLI to make sure the NFTs were uploaded an
 Update your .env.local file with the new address.
 ```
 
+- Initial SOL I had
+0.98 - 0.734 = 0.246 (139 images ~ 7.55$)
+https://www.coinbase.com/converter/sol/usd
+
+- URL to collection
+https://www.solaneyes.com/address/CX32wnRWALUt3ApJEA3C3DsUyW5mwDdw87tcw1WUnndj?cluster=mainnet
+
+- URL to listed item:
+https://magiceden.io/item-details/FvBxiPgrr12JPep4LNnUHWn7FYVkh9c476bZUrPxn5k3
